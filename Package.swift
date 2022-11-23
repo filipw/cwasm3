@@ -17,7 +17,7 @@ let package = Package(
                 .define("APPLICATION_EXTENSION_API_ONLY", to: "YES"),
                 .define("d_m3MaxDuplicateFunctionImpl", to: "10"),
                 .define("__wasi__", to: "YES"),
-                .define("d_m3HasWASI", to: "YES")
+                .define("d_m3HasUVWASI", to: "YES")
             ]
         ),
         .testTarget(
